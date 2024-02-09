@@ -231,6 +231,11 @@ Transform:
   - {fileID: 1040441417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -57.217, z: 0}
+--- !u!4 &119263076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1732889992008119028, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+  m_PrefabInstance: {fileID: 428848379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &131864917
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,6 +892,22 @@ PrefabInstance:
       propertyPath: faction
       value: 
       objectReference: {fileID: 1111501228}
+    - target: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+      propertyPath: rallyPoint2
+      value: 
+      objectReference: {fileID: 592594735}
+    - target: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+      propertyPath: spawnPoint2
+      value: 
+      objectReference: {fileID: 119263076}
+    - target: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+      propertyPath: unitPrefabs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+      propertyPath: unitPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 111782, guid: 8a750ab63ac1a5f44814a995fb95bbbf, type: 3}
     - target: {fileID: 8908747300860072311, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1363,6 +1384,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569811184}
   m_CullTransparentMesh: 1
+--- !u!4 &592594735 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2903926434916155456, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+  m_PrefabInstance: {fileID: 428848379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &599104776
 GameObject:
   m_ObjectHideFlags: 0
