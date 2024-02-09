@@ -8,6 +8,11 @@ public class Building : Structure
     public Transform SpawnPoint { get { return spawnPoint; } }
     [SerializeField] private Transform rallyPoint;
     public Transform RallyPoint { get { return rallyPoint; } }
+    
+    [SerializeField] private Transform spawnPoint2;
+    public Transform SpawnPoint2 { get { return spawnPoint2; } }
+    [SerializeField] private Transform rallyPoint2;
+    public Transform RallyPoint2 { get { return rallyPoint2; } }
 
     [SerializeField] private GameObject[] unitPrefabs;
 
