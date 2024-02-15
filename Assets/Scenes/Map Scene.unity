@@ -231,11 +231,6 @@ Transform:
   - {fileID: 1040441417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -57.217, z: 0}
---- !u!4 &119263076 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1732889992008119028, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
-  m_PrefabInstance: {fileID: 428848379}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &131864917
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,6 +879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Headquater
       objectReference: {fileID: 0}
+    - target: {fileID: 3270083628158858762, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6708979184777003921, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.5
@@ -895,11 +894,11 @@ PrefabInstance:
     - target: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
       propertyPath: rallyPoint2
       value: 
-      objectReference: {fileID: 592594735}
+      objectReference: {fileID: 0}
     - target: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
       propertyPath: spawnPoint2
       value: 
-      objectReference: {fileID: 119263076}
+      objectReference: {fileID: 0}
     - target: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
       propertyPath: unitPrefabs.Array.size
       value: 2
@@ -1384,11 +1383,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569811184}
   m_CullTransparentMesh: 1
---- !u!4 &592594735 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2903926434916155456, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
-  m_PrefabInstance: {fileID: 428848379}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &599104776
 GameObject:
   m_ObjectHideFlags: 0
