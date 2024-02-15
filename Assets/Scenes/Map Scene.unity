@@ -485,6 +485,17 @@ Transform:
   - {fileID: 1040441417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -57.217, z: 0}
+--- !u!114 &74209670 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6988097958631777802, guid: 357b883b0908a5e4baceeb43970c4e64, type: 3}
+  m_PrefabInstance: {fileID: 428848379}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b3044d5fdcf6404e8ff154942821963, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &84209673
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,6 +3357,14 @@ PrefabInstance:
       propertyPath: nation
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4509269917425615125, guid: 9dda4a431d4307045b4a97c5d21eb55c, type: 3}
+      propertyPath: aliveBuildings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509269917425615125, guid: 9dda4a431d4307045b4a97c5d21eb55c, type: 3}
+      propertyPath: aliveBuildings.Array.data[0]
+      value: 
+      objectReference: {fileID: 74209670}
     - target: {fileID: 5720852050923334568, guid: 9dda4a431d4307045b4a97c5d21eb55c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3424,6 +3443,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   curUnit: {fileID: 0}
+  curBuilding: {fileID: 0}
 --- !u!114 &1111501228 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4509269917425615125, guid: 9dda4a431d4307045b4a97c5d21eb55c, type: 3}

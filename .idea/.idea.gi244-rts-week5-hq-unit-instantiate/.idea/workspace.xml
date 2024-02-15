@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee2d114a-a803-46e7-b6b3-5dda3dcc860f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.gi244-rts-week5-hq-unit-instantiate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.gi244-rts-week5-hq-unit-instantiate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building/Headquater.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building/Headquater.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Command/UnitSelect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Command/UnitSelect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/InfoManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/InfoManager.cs" afterDir="false" />
     </list>
@@ -68,7 +69,7 @@
       <updated>1707443715240</updated>
       <workItem from="1707443720506" duration="3061000" />
       <workItem from="1707967380996" duration="49000" />
-      <workItem from="1707967456225" duration="1117000" />
+      <workItem from="1707967456225" duration="2463000" />
     </task>
     <servers />
   </component>
